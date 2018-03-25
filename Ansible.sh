@@ -14,7 +14,6 @@ cat << EOF
 the lastest version of ansible on ansible 
 ###############################################
 EOF
-ansible_install_ubuntu
 
 OS_CHECK () {
     OS_CHECK_SYSTEM="grep ubuntu /etc/os-release"
